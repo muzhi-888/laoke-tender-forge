@@ -1,0 +1,15 @@
+{
+  "name": "laoke-tender-forge",
+  "slug": "laoke-tender-forge",
+  "displayName": "招投标文档生成器",
+  "version": "1.0.0",
+  "author": "局内人·老K",
+  "category": "商业运营",
+  "tags": ["招投标", "标书", "商务标", "技术标", "偏离表", "合规自检"],
+  "description": "通用招投标标书智能生成与合规自检工具，覆盖商务标技术标价格标结构与偏离表",
+  "compatibility": "通用（支持 Skill 的 Agent：Claude Code / CodeBuddy / DeepSeek / WorkBuddy 等）",
+  "permissions": "读取招标文件文本、写入标书 Markdown、运行内置 Python 自检脚本",
+  "safety": "仅用于合法合规的投标活动；内置合规护栏，硬拒围标串标陪标虚假资质等违规请求",
+  "license": "MIT",
+  "entry": "SKILL.md"
+}
